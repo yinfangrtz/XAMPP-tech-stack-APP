@@ -1,0 +1,19 @@
+This project was inspired by the fact that I wish I was watching the World Cup in Qatar at the moment. We are now in the knockout stages and there are 16 teams left.
+
+I designed a website to introduce these 16 teams and their top 20 star players. Encouraging users to customise their trip to Qatar through the website.
+
+The site has four ways to interact with the database using php.
+1 search page, search for players. - queries that request data from multiple tables.
+2 search page, search for teams. - queries that request data from one table.
+3 book page, drop down menu. - data from multiple tables.
+4 book page, submit. - add data to the database.
+
+In the database, there are five associated tables. 
+The player table is the core, linked with the team table, the coach table and the position table by foreign keys.
+The client table has a relatively independent function and it is used to accept data submitted by the user. It is linked to the team table and the player table, for the purpose of drop down menus.
+
+Since the data is limited in my project with only 20 players and 16 teams, on the search page, I have given 6 sets of suggested player or team names to search for. 
+
+The search results are presented on a new page with a back button. If a player or team name outside of the database is sought, a search keyword indication will be provided. 
+
+The website part has four main interactive pages for users to interact with the web app and obtain information. All the pages need to be open on localhost. I learned from various youtube video tutorials. Images and information are from Google.
